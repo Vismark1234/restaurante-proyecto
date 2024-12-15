@@ -1,0 +1,35 @@
+.contenedor-galeria{
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+.titulos{
+  
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgba(24, 26, 26, 0.918);
+    justify-content: center;
+    color: white; /* Color del texto */
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: bold; /* Hace el texto más llamativo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    max-width: 100%;;
+  
+  }
+  .tex{
+    border-bottom: 2px solid white; /* Línea debajo del texto */
+    font-family: 'Futura Medium'; /* Fuente */
+  }
+  .img-pag-5 {
+    
+    padding: 0 20px;
+    width: 100%;  /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto;  /* Mantiene la proporción de la imagen */
+    max-height: 800px;
+
+    object-fit: cover; /* La imagen se recorta para llenar el contenedor */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+    display: block; /* Elimina espacios adicionales si la imagen es un inline-block */
+
+}
